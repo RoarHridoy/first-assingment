@@ -1,0 +1,207 @@
+body {
+
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+
+    font-size: 50px;
+
+}
+
+.donation {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)), url(images/donation10.jpg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.donation-lines {
+    text-align: center;
+    color: tomato;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, purple);
+    color: white;
+    border-radius: 5px;
+}
+
+.selection-money-type {
+
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    overflow: hidden;
+    width: 576px;
+}
+
+#specification {
+    border: 3px solid brown;
+    border-radius: 2px;
+}
+
+li {
+    padding: 30px;
+}
+
+.payment-part {
+
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#written-amount-money {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+.donate-plan {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+
+}
+
+#food {
+
+    width: 33.333%;
+    background-color: azure;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+#education {
+
+    width: 33.333%;
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+}
+
+#shelter {
+    width: 33.333%;
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.design {
+
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid gray;
+    width: 576px;
+}
+
+.update {
+
+
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.subscribe {
+
+    background-image: linear-gradient(red, grey);
+    border-radius: 5px;
+
+
+}
+
+#mail-function {
+    padding: 50px;
+    background-color: palevioletred;
+
+}
+
+footer {
+
+    background-color: darkslategrey;
+}
+
+.footer-design {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.events {
+
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.event-planning {
+
+    display: flex;
+
+}
+
+.eid {
+    width: 33.333%;
+
+}
+
+.winter {
+
+    width: 33.333%;
+}
+
+.iftar {
+    width: 33.333%;
+
+}
+
+.images {
+
+    width: 300px;
+    height: 300px;
+    display: block;
+
+}
